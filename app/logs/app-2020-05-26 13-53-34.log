@@ -1,0 +1,7 @@
+app - 2020-05-26 13:53:34,646- Started Application v06.Jan.2020 on 2020-05-26 13:53:34.646131
+app - 2020-05-26 13:53:34,646- --------------------------------------------------
+app - 2020-05-26 13:53:34,646- Startup Check: Connecting to Tally Server
+app - 2020-05-26 13:53:34,646- TALLY_SERVER_URL --> https://c8531a04.ngrok.io/
+app - 2020-05-26 13:53:43,367- Connected to Tally Server
+app - 2020-05-26 13:53:43,368- Fetched GUID --> 123
+app - 2020-05-26 13:53:43,368- Startup Check: Connecting to SQL Database & loading env variables

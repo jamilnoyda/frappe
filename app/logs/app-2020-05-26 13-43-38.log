@@ -1,0 +1,7 @@
+app - 2020-05-26 13:43:38,112- Started Application v06.Jan.2020 on 2020-05-26 13:43:38.112449
+app - 2020-05-26 13:43:38,112- --------------------------------------------------
+app - 2020-05-26 13:43:38,112- Startup Check: Connecting to Tally Server
+app - 2020-05-26 13:43:38,112- TALLY_SERVER_URL --> 
+app - 2020-05-26 13:43:38,113- Connection Request Failed Invalid URL '': No schema supplied. Perhaps you meant http://?
+app - 2020-05-26 13:44:13,166- TALLY_SERVER_URL --> 
+app - 2020-05-26 13:44:13,166- Connection Request Failed Invalid URL '': No schema supplied. Perhaps you meant http://?

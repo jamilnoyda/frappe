@@ -1,7 +1,11 @@
-to start your application using Flask
+to start your application using Flask(Python 3.8+Flask==1.1+Flask-AppBuilder==2.3)
 --------------------------------------------------------------
+First, clone the repository to your local machine:
 
-- Install it::
+
+- Install and it get things running on local machine::
+    virtualenv --python=python3.8 venv
+    source venv/bin/activate
 
 	pip install -r requirements.txt
 	
@@ -11,29 +15,15 @@ to start your application using Flask
     $ flask run
 
 
-That's it!! 
+http://localhost:5555/
 
+That's it!! 
 
 
 admin  username and password
     username: admin
     password: hello
-    #cli flask fab create-admin
 
-
-
-waitress-serve --call 'run:app'
-
-
-pip3 freeze > requirements.txt
-
-
-
-flower -A app.celery --port=5555
-chmod +x script.sh
-http://localhost:5555/
-
-source venv/bin/activate
 
 
 # frappe
@@ -41,6 +31,8 @@ source venv/bin/activate
 
 https://frappe.io/flask-test
 
+ - used black for linting
+ - used VSCode for Coding
 
 
 ![1](/screens/LOGIN.png)

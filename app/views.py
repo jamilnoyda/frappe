@@ -3,6 +3,7 @@ from flask import (
     url_for,
 )
 
+from wtforms.fields import TextField
 
 from app import r
 from flask import render_template
@@ -21,87 +22,67 @@ from app.models import (
 
 from flask import request, session, flash, redirect, url_for
 from app import app, celery, db
+from flask_babel import gettext
 
 import logging
+from flask_appbuilder.models.sqla.filters import FilterStartsWith
 
 
 db.create_all()
-
-
-# class RedisView(ModelView):
-
-#     route_base = "/redis-values"
-#     datamodel = SQLAInterface(RedisValue)
-#     list_columns = [
-#         "get_value",
-#         "get_key",
-#     ]
-
-#     add_columns = [
-#         "key",
-#         "value",
-#     ]
-
-#     edit_columns = add_columns
-
-#     def pre_add(self, obj):
-#         r.set(obj.key, obj.value)
-
-#     def pre_update(self, obj):
-#         self.pre_add(obj)
-
-    # def post_edit_redirect(self):
-    #     return redirect(url_for("RedisView.list"))
-
-    # def post_delete_redirect(self):
-    #     return redirect(url_for("RedisView.list"))
-
-    # def post_add_redirect(self):
-    #     return redirect(url_for("RedisView.list"))
-
-
-# class GroupModelView(ModelView):
-#     datamodel = SQLAInterface(ContactGroup)
 
 
 class LocationModelView(ModelView):
     datamodel = SQLAInterface(Location)
 
 
-
 class ProductModelView(ModelView):
     datamodel = SQLAInterface(Product)
 
+
+from flask_appbuilder.fieldwidgets import BS3TextFieldWidget
+
+
+class BS3TextFieldROWidget(BS3TextFieldWidget):
+    def __call__(self, field, **kwargs):
+        kwargs["readonly"] = "true"
+        return super(BS3TextFieldROWidget, self).__call__(field, **kwargs)
 
 
 class ProductMovementModelView(ModelView):
     datamodel = SQLAInterface(ProductMovement)
 
+    # list_columns = [
+    # "from_location_id",
+    # "to_location",
+    # "product",
+    # "current_location",
+    # ]
+    # add_columns = [
+    #     "current_location",
+
+    # ]
+    # add_form_extra_fields = {
+    #     'field2': TextField('field2', widget=BS3TextFieldROWidget())
+    # }
+    add_form_extra_fields = {
+        "extra": TextField(
+            gettext("Extra Field"),
+            description=gettext("Extra Field description"),
+            widget=BS3TextFieldWidget(),
+        )
+    }
+    # add_columns = ['product', 'field2']
+    # add_form_query_rel_fields = {
+    #     'group': [['name', FilterStartsWith, 'W']],
+    #     'gender': [['name', FilterStartsWith, 'M']]
+    # }
+
+    def pre_add(self, obj):
+        obj.from_location = obj.product.current_location
+
+    # edit_columns = add_columns
 
 
-
-# class ContactModelView(ModelView):
-#     datamodel = SQLAInterface(Contact)
-
-#     label_columns = {"contact_group": "Contacts Group"}
-#     list_columns = ["name", "personal_cellphone", "birthday", "contact_group"]
-
-#     show_fieldsets = [
-#         ("Summary", {"fields": ["name", "address", "contact_group"]}),
-#         (
-#             "Personal Info",
-#             {
-#                 "fields": ["birthday", "personal_phone", "personal_cellphone"],
-#                 "expanded": False,
-#             },
-#         ),
-#     ]
-
-
-# appbuilder.add_view(ContactModelView(), "Contact")
-# appbuilder.add_view(GroupModelView(), "Group")
-# appbuilder.add_view(RedisView(), "kd")
-
-appbuilder.add_view(ProductModelView(), "Contac")
-appbuilder.add_view(ProductMovementModelView(), "Goup")
-appbuilder.add_view(LocationModelView(), "k")
+appbuilder.add_view(ProductModelView(), "Products")
+appbuilder.add_view(ProductMovementModelView(), "Product Movements")
+appbuilder.add_view(LocationModelView(), "Warehouses")

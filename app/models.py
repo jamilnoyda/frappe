@@ -18,11 +18,11 @@ class Product(Model):
     __table_args__ = (CheckConstraint(stock >= 0, name="check_stock_positive"), {})
 
     id = Column(Integer, primary_key=True)
-    name = Column(String(150), unique=True, nullable=False)
+    name = Column(String(150), nullable=False)
 
-    slug = Column(String(255))
+    # slug = Column(String(255))
 
-    description = Column(String(255))
+    # description = Column(String(255))
     price = Column(Float)
     current_location_id = Column(Integer, ForeignKey("location.id"), nullable=False)
 
@@ -35,6 +35,9 @@ class Product(Model):
 
     def __repr__(self):
         return self.name
+
+    def total_price(self):
+        return self.price * self.stock
 
 
 class Location(Model):
@@ -93,14 +96,11 @@ class ProductMovement(Model):
     def __repr__(self):
         return self.product.name
 
-    # @property
-    # def current_location(self):
-    #     if self.product:
+    def current_location(self):
+        if self.product:
 
-    #         return self.product.location.id
-    #     else:
-    #         return None
-    @renders("custom")
-    def my_custom(self):
-        # will render this columns as bold on ListWidget
-        return Markup("<b>" + to_location + "</b>")
+            return self.product.current_location.name
+        else:
+            return "None"
+
+    # def get_or_create(session, model, defaults=None, **kwargs):

@@ -1,14 +1,14 @@
-to start your application using Flask(Python 3.8+Flask==1.1+Flask-AppBuilder==2.3)
+Start your application using Flask(Python 3.8+Flask==1.1+Flask-AppBuilder==2.3)
 --------------------------------------------------------------
-First, clone the repository to your local machine:
 
-
-- Install and it get things running on local machine::
+- clone repo, Install and it get things running on local machine::
+    
     virtualenv --python=python3.8 venv
+    
     source venv/bin/activate
 
-	pip install -r requirements.txt
-	
+    pip install -r requirements.txt
+
 
 - Run it::
 
@@ -23,7 +23,6 @@ That's it!!
 admin  username and password
     username: admin
     password: hello
-
 
 
 # frappe

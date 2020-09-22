@@ -40,3 +40,16 @@ source venv/bin/activate
 
 
 https://frappe.io/flask-test
+
+
+
+![1](/screens/LOGIN.png)
+![2](/screens/ADD_MOVEMENT.png)
+![2](/screens/LIST_MOVEMENT_2.png)
+
+![3](/screens/GRID_VIEW.png)
+![4](/screens/LOCATIONS.png)
+
+![8](/screens/STOCK_VALIDATION.png)
+![9](/screens/VALIDATION_2.png)
+

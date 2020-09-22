@@ -34,7 +34,11 @@ class Product(Model):
     #     super().__init__(*args, **kwargs)
 
     def __repr__(self):
-        return self.name
+
+        '''
+        name, location and available stock
+        '''
+        return self.name+'-'+self.current_location.name+', stock: '+ str(self.stock)
 
     def total_price(self):
         return self.price * self.stock

@@ -10,7 +10,14 @@ from flask_appbuilder.models.sqla.interface import SQLAInterface
 from flask_appbuilder import ModelView, ModelRestApi
 
 from . import appbuilder, db
-from app.models import Contact, ContactGroup, RedisValue
+from app.models import (
+    # Contact,
+    # ContactGroup,
+    # RedisValue,
+    Location,
+    Product,
+    ProductMovement,
+)
 
 from flask import request, session, flash, redirect, url_for
 from app import app, celery, db
@@ -21,27 +28,27 @@ import logging
 db.create_all()
 
 
-class RedisView(ModelView):
+# class RedisView(ModelView):
 
-    route_base = "/redis-values"
-    datamodel = SQLAInterface(RedisValue)
-    list_columns = [
-        "get_value",
-        "get_key",
-    ]
+#     route_base = "/redis-values"
+#     datamodel = SQLAInterface(RedisValue)
+#     list_columns = [
+#         "get_value",
+#         "get_key",
+#     ]
 
-    add_columns = [
-        "key",
-        "value",
-    ]
+#     add_columns = [
+#         "key",
+#         "value",
+#     ]
 
-    edit_columns = add_columns
+#     edit_columns = add_columns
 
-    def pre_add(self, obj):
-        r.set(obj.key, obj.value)
+#     def pre_add(self, obj):
+#         r.set(obj.key, obj.value)
 
-    def pre_update(self, obj):
-        self.pre_add(obj)
+#     def pre_update(self, obj):
+#         self.pre_add(obj)
 
     # def post_edit_redirect(self):
     #     return redirect(url_for("RedisView.list"))
@@ -53,28 +60,48 @@ class RedisView(ModelView):
     #     return redirect(url_for("RedisView.list"))
 
 
-class GroupModelView(ModelView):
-    datamodel = SQLAInterface(ContactGroup)
+# class GroupModelView(ModelView):
+#     datamodel = SQLAInterface(ContactGroup)
 
 
-class ContactModelView(ModelView):
-    datamodel = SQLAInterface(Contact)
-
-    label_columns = {"contact_group": "Contacts Group"}
-    list_columns = ["name", "personal_cellphone", "birthday", "contact_group"]
-
-    show_fieldsets = [
-        ("Summary", {"fields": ["name", "address", "contact_group"]}),
-        (
-            "Personal Info",
-            {
-                "fields": ["birthday", "personal_phone", "personal_cellphone"],
-                "expanded": False,
-            },
-        ),
-    ]
+class LocationModelView(ModelView):
+    datamodel = SQLAInterface(Location)
 
 
-appbuilder.add_view(ContactModelView(), "Contact")
-appbuilder.add_view(GroupModelView(), "Group")
-appbuilder.add_view(RedisView(), "kd")
+
+class ProductModelView(ModelView):
+    datamodel = SQLAInterface(Product)
+
+
+
+class ProductMovementModelView(ModelView):
+    datamodel = SQLAInterface(ProductMovement)
+
+
+
+
+# class ContactModelView(ModelView):
+#     datamodel = SQLAInterface(Contact)
+
+#     label_columns = {"contact_group": "Contacts Group"}
+#     list_columns = ["name", "personal_cellphone", "birthday", "contact_group"]
+
+#     show_fieldsets = [
+#         ("Summary", {"fields": ["name", "address", "contact_group"]}),
+#         (
+#             "Personal Info",
+#             {
+#                 "fields": ["birthday", "personal_phone", "personal_cellphone"],
+#                 "expanded": False,
+#             },
+#         ),
+#     ]
+
+
+# appbuilder.add_view(ContactModelView(), "Contact")
+# appbuilder.add_view(GroupModelView(), "Group")
+# appbuilder.add_view(RedisView(), "kd")
+
+appbuilder.add_view(ProductModelView(), "Contac")
+appbuilder.add_view(ProductMovementModelView(), "Goup")
+appbuilder.add_view(LocationModelView(), "k")

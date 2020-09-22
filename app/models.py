@@ -103,4 +103,4 @@ class ProductMovement(Model):
     @renders("custom")
     def my_custom(self):
         # will render this columns as bold on ListWidget
-        return Markup("<b>" + custom + "</b>")
+        return Markup("<b>" + to_location + "</b>")

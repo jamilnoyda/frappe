@@ -34,3 +34,9 @@ chmod +x script.sh
 http://localhost:5555/
 
 source venv/bin/activate
+
+
+# frappe
+
+
+https://frappe.io/flask-test

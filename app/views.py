@@ -61,21 +61,17 @@ class ProductMovementModelView(ModelView):
     #     "current_location",
 
     # ]
-    # add_form_extra_fields = {
-    #     'field2': TextField('field2', widget=BS3TextFieldROWidget())
-    # }
+    
     add_form_extra_fields = {
-        "extra": TextField(
-            gettext("Extra Field"),
-            description=gettext("Extra Field description"),
-            widget=BS3TextFieldWidget(),
-        )
+
+        'from_location': TextField('from_location', widget=BS3TextFieldROWidget())
     }
-    # add_columns = ['product', 'field2']
+    add_columns = ['product',"to_location",'from_location']
     # add_form_query_rel_fields = {
     #     'group': [['name', FilterStartsWith, 'W']],
     #     'gender': [['name', FilterStartsWith, 'M']]
     # }
+    edit_columns = add_columns
 
     def pre_add(self, obj):
         obj.from_location = obj.product.current_location

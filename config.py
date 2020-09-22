@@ -37,7 +37,7 @@ CELERY_RESULT_BACKEND = os.getenv('CELERY_RESULT_BACKEND')
 APP_NAME = "frappe"
 
 # Uncomment to setup Setup an App icon
-APP_ICON = "static/img/logo.png"
+APP_ICON = "/static/img/logo.png"
 
 # ----------------------------------------------------
 # AUTHENTICATION CONFIG

@@ -45,3 +45,13 @@ https://frappe.io/flask-test
 ![8](/screens/STOCK_VALIDATION.png)
 ![9](/screens/VALIDATION_2.png)
 
+
+
+![41](/screens/1.png)
+
+![81](/screens/2.png)
+![91](/screens/3.png)
+
+
+![41](/screens/4.png)
+

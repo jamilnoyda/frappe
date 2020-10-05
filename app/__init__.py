@@ -13,15 +13,22 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 app = Flask(__name__)
 app.config.from_object("config")
+# SSSSapp.config.from_object('yourapplication.default_settings')
+
+
+SECRET_KEY = "uVUNuDH4ZYlNRa980MOhSwvYeI4VDnyw"
+app.secret_key = SECRET_KEY
 db = SQLA(app)
+
 appbuilder = AppBuilder(app, db.session)
 from redis import Redis
 
 import os
 app.config["SESSION_REDIS"] = Redis(host="redis", port="6379")
+
 r =app.config["SESSION_REDIS"]
-# celery = Celery(app.name, broker=os.getenv('CELERY_BROKER_URL'))
-# celery.conf.update(app.config)
+celery = Celery(app.name, broker=os.getenv('CELERY_BROKER_URL'))
+celery.conf.update(app.config)
 
 # basedir = app.config.get('basedir')
 
@@ -30,8 +37,8 @@ celery = Celery(
         broker=app.config['BROKER_URL']
 )
   
-celery.config_from_object(app.config.from_object("config"))
-TaskBase = celery.Task
+# celery.config_from_object(app.config.from_object("config"))
+# TaskBase = celery.Task
 # import subprocess
 # import os
 # import sys

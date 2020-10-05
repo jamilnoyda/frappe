@@ -1,0 +1,1890 @@
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+
+Error: '/path/to/gunicorn.conf.py' doesn't exist
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -c/--config: expected one argument
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-04 16:24:56,482:WARNING:flask_appbuilder.security.manager:No user yet created, use flask fab command to do it.
+2020-10-04 16:24:56,484:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-04 16:24:56,484:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-04 16:24:56,487:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-04 16:24:56,487:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-04 16:24:56,490:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-04 16:24:56,490:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-04 16:24:56,492:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-04 16:24:56,492:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-04 16:24:56,492:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-04 16:24:56,496:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-04 16:24:56,496:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-04 16:24:56,496:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-04 16:24:56,503:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-04 16:24:56,503:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-04 16:24:56,503:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-04 16:24:56,508:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-04 16:24:56,508:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-04 16:24:56,508:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-04 16:24:56,513:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-04 16:24:56,513:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-04 16:24:56,514:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-04 16:24:56,519:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-04 16:24:56,519:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,519:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-04 16:24:56,519:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,520:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-04 16:24:56,521:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-04 16:24:56,521:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-04 16:24:56,550:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-04 16:24:56,550:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,550:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,551:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-04 16:24:56,552:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-04 16:24:56,579:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-04 16:24:56,579:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-04 16:24:56,579:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,594:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-04 16:24:56,595:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-04 16:24:56,620:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-04 16:24:56,620:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,621:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-04 16:24:56,622:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-04 16:24:56,646:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-04 16:24:56,646:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,646:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,647:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,648:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-04 16:24:56,648:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-04 16:24:56,672:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-04 16:24:56,672:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-04 16:24:56,736:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,737:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,738:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-04 16:24:56,738:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-04 16:24:56,761:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-04 16:24:56,761:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,761:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,762:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-04 16:24:56,763:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-04 16:24:56,787:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-04 16:24:56,788:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-04 16:24:56,789:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-04 16:24:56 +0530] [9759] [INFO] Starting gunicorn 20.0.4
+[2020-10-04 16:24:56 +0530] [9759] [INFO] Listening at: http://127.0.0.1:8000 (9759)
+[2020-10-04 16:24:56 +0530] [9759] [INFO] Using worker: sync
+[2020-10-04 16:24:56 +0530] [9761] [INFO] Booting worker with pid: 9761
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+Failed to read config file: /home/jamiil/code/frappe/app/wsgi.py
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 578, in import_string
+    return getattr(module, obj_name)
+AttributeError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 111, in get_config_from_filename
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jamiil/code/frappe/app/wsgi.py", line 1, in <module>
+    from app import app
+  File "/home/jamiil/code/frappe/app/__init__.py", line 15, in <module>
+    app.config.from_object("app:config")
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask/config.py", line 174, in from_object
+    obj = import_string(obj)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 584, in import_string
+    reraise(
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/_compat.py", line 147, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/werkzeug/utils.py", line 580, in import_string
+    raise ImportError(e)
+werkzeug.utils.ImportStringError: import_string() failed for 'app.config'. Possible reasons are:
+
+- missing __init__.py in a package;
+- package or module path not included in sys.path;
+- duplicated package or module name taking precedence in sys.path;
+- missing module, class, function or variable;
+
+Debugged import:
+
+- 'app' found in '/home/jamiil/code/frappe/app/__init__.py'.
+- 'app.config' not found.
+
+Original exception:
+
+ImportError: partially initialized module 'app' has no attribute 'config' (most likely due to a circular import)
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-05 10:01:48,416:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-05 10:01:48,417:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-05 10:01:48,420:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-05 10:01:48,420:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-05 10:01:48,422:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-05 10:01:48,422:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-05 10:01:48,424:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-05 10:01:48,425:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-05 10:01:48,425:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-05 10:01:48,428:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-05 10:01:48,428:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-05 10:01:48,428:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-05 10:01:48,435:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-05 10:01:48,435:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-05 10:01:48,435:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-05 10:01:48,440:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-05 10:01:48,440:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-05 10:01:48,440:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-05 10:01:48,445:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-05 10:01:48,445:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-05 10:01:48,446:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-05 10:01:48,451:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-05 10:01:48,452:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-05 10:01:48,492:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-05 10:01:48,493:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-05 10:01:48,524:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-05 10:01:48,524:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-05 10:01:48,524:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-05 10:01:48,539:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-05 10:01:48,540:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-05 10:01:48,567:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,568:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,569:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,569:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-05 10:01:48,569:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,610:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-05 10:01:48,611:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-05 10:01:48,634:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-05 10:01:48,635:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,696:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-05 10:01:48,697:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-05 10:01:48,718:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-05 10:01:48,718:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,718:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-05 10:01:48,719:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-05 10:01:48,740:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-05 10:01:48,740:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,740:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-05 10:01:48,740:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-05 10:01:48,741:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-05 10:01:48 +0530] [1019] [INFO] Starting gunicorn 20.0.4
+[2020-10-05 10:01:48 +0530] [1019] [INFO] Listening at: http://127.0.0.1:8000 (1019)
+[2020-10-05 10:01:48 +0530] [1019] [INFO] Using worker: sync
+[2020-10-05 10:01:48 +0530] [1204] [INFO] Booting worker with pid: 1204
+[2020-10-05 10:47:59 +0530] [1019] [CRITICAL] WORKER TIMEOUT (pid:1204)
+[2020-10-05 10:47:59 +0530] [1204] [INFO] Worker exiting (pid: 1204)
+[2020-10-05 10:47:59 +0530] [6023] [INFO] Booting worker with pid: 6023
+[2020-10-05 12:24:40 +0530] [1019] [CRITICAL] WORKER TIMEOUT (pid:6023)
+[2020-10-05 12:24:40 +0530] [6023] [INFO] Worker exiting (pid: 6023)
+[2020-10-05 12:24:40 +0530] [11635] [INFO] Booting worker with pid: 11635
+[2020-10-05 12:43:05 +0530] [1019] [INFO] Handling signal: term
+[2020-10-05 12:43:05 +0530] [11635] [INFO] Worker exiting (pid: 11635)
+[2020-10-05 12:43:05 +0530] [1019] [INFO] Shutting down: Master
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-05 13:10:25,541:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-05 13:10:25,541:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-05 13:10:25,544:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-05 13:10:25,544:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-05 13:10:25,546:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-05 13:10:25,547:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-05 13:10:25,549:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-05 13:10:25,549:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-05 13:10:25,549:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-05 13:10:25,552:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-05 13:10:25,552:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-05 13:10:25,552:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-05 13:10:25,560:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-05 13:10:25,561:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-05 13:10:25,562:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-05 13:10:25,567:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-05 13:10:25,568:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-05 13:10:25,568:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-05 13:10:25,572:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-05 13:10:25,573:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-05 13:10:25,573:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-05 13:10:25,582:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-05 13:10:25,582:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,582:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-05 13:10:25,582:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,583:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-05 13:10:25,584:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-05 13:10:25,584:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-05 13:10:25,617:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,618:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,619:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,619:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-05 13:10:25,619:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-05 13:10:25,650:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-05 13:10:25,651:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-05 13:10:25,651:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-05 13:10:25,668:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-05 13:10:25,669:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-05 13:10:25,670:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-05 13:10:25,696:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-05 13:10:25,696:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,696:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-05 13:10:25,696:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-05 13:10:25,696:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-05 13:10:25,697:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-05 13:10:25,729:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-05 13:10:25,730:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-05 13:10:25,731:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-05 13:10:25,732:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,732:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,732:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,732:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,732:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-05 13:10:25,732:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-05 13:10:25,757:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-05 13:10:25,758:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-05 13:10:25,827:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-05 13:10:25,827:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,827:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-05 13:10:25,828:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-05 13:10:25,828:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-05 13:10:25,828:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,828:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-05 13:10:25,829:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-05 13:10:25,851:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,852:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,853:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-05 13:10:25,853:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-05 13:10:25,883:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-05 13:10:25,883:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,883:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-05 13:10:25,883:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-05 13:10:25,883:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-05 13:10:25,884:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-05 13:10:25 +0530] [14271] [INFO] Starting gunicorn 20.0.4
+[2020-10-05 13:10:25 +0530] [14271] [INFO] Listening at: http://127.0.0.1:8000 (14271)
+[2020-10-05 13:10:25 +0530] [14271] [INFO] Using worker: sync
+[2020-10-05 13:10:25 +0530] [14273] [INFO] Booting worker with pid: 14273
+[2020-10-05 13:11:06 +0530] [14271] [INFO] Handling signal: term
+[2020-10-05 13:11:06 +0530] [14273] [INFO] Worker exiting (pid: 14273)
+[2020-10-05 13:11:06 +0530] [14271] [INFO] Shutting down: Master
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-05 13:11:19,635:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-05 13:11:19,636:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-05 13:11:19,639:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-05 13:11:19,639:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-05 13:11:19,642:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-05 13:11:19,642:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-05 13:11:19,646:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-05 13:11:19,646:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-05 13:11:19,646:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-05 13:11:19,650:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-05 13:11:19,650:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-05 13:11:19,650:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-05 13:11:19,658:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-05 13:11:19,658:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-05 13:11:19,658:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-05 13:11:19,664:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-05 13:11:19,664:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-05 13:11:19,664:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-05 13:11:19,669:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-05 13:11:19,670:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-05 13:11:19,670:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-05 13:11:19,679:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-05 13:11:19,680:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,680:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-05 13:11:19,681:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-05 13:11:19,682:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,682:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-05 13:11:19,682:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,682:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-05 13:11:19,682:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-05 13:11:19,682:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-05 13:11:19,723:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-05 13:11:19,724:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,725:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-05 13:11:19,726:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-05 13:11:19,727:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-05 13:11:19,762:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-05 13:11:19,763:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-05 13:11:19,764:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:19,782:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-05 13:11:19,783:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:19,817:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-05 13:11:19,818:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-05 13:11:19,858:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,859:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-05 13:11:19,859:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-05 13:11:19,887:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-05 13:11:19,887:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-05 13:11:19,975:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-05 13:11:19,978:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,978:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-05 13:11:19,978:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-05 13:11:19,978:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-05 13:11:19,978:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:19,978:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-05 13:11:19,979:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-05 13:11:20,020:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-05 13:11:20,021:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:11:20,022:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:20,022:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:11:20,022:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:20,022:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-05 13:11:20,022:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-05 13:11:20,053:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-05 13:11:20,054:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:11:20,054:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:11:20,054:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:11:20,054:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:11:20,054:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-05 13:11:20,054:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-05 13:11:20 +0530] [14283] [INFO] Starting gunicorn 20.0.4
+[2020-10-05 13:11:20 +0530] [14283] [INFO] Listening at: http://127.0.0.1:8000 (14283)
+[2020-10-05 13:11:20 +0530] [14283] [INFO] Using worker: sync
+[2020-10-05 13:11:20 +0530] [14289] [INFO] Booting worker with pid: 14289
+[2020-10-05 13:12:42 +0530] [14283] [CRITICAL] WORKER TIMEOUT (pid:14289)
+[2020-10-05 13:12:42 +0530] [14289] [INFO] Worker exiting (pid: 14289)
+[2020-10-05 13:12:42 +0530] [14372] [INFO] Booting worker with pid: 14372
+[2020-10-05 13:19:02 +0530] [14283] [INFO] Handling signal: term
+[2020-10-05 13:19:02 +0530] [14372] [INFO] Worker exiting (pid: 14372)
+[2020-10-05 13:19:03 +0530] [14283] [INFO] Shutting down: Master
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-05 13:19:15,886:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-05 13:19:15,886:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-05 13:19:15,890:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-05 13:19:15,890:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-05 13:19:15,893:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-05 13:19:15,893:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-05 13:19:15,896:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-05 13:19:15,897:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-05 13:19:15,897:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-05 13:19:15,901:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-05 13:19:15,901:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-05 13:19:15,901:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-05 13:19:15,909:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-05 13:19:15,910:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-05 13:19:15,910:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-05 13:19:15,920:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-05 13:19:15,920:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-05 13:19:15,920:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-05 13:19:15,927:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-05 13:19:15,928:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-05 13:19:15,928:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-05 13:19:15,940:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-05 13:19:15,941:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:15,941:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-05 13:19:15,941:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-05 13:19:15,941:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-05 13:19:15,941:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-05 13:19:15,942:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-05 13:19:15,943:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-05 13:19:15,999:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-05 13:19:16,000:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,000:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-05 13:19:16,001:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-05 13:19:16,002:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,003:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-05 13:19:16,004:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-05 13:19:16,049:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-05 13:19:16,050:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-05 13:19:16,050:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-05 13:19:16,082:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-05 13:19:16,082:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-05 13:19:16,083:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-05 13:19:16,084:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,084:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,084:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,084:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,084:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-05 13:19:16,084:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-05 13:19:16,140:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,141:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-05 13:19:16,142:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-05 13:19:16,197:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-05 13:19:16,197:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,198:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,199:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,199:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-05 13:19:16,199:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-05 13:19:16,253:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-05 13:19:16,254:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-05 13:19:16,390:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-05 13:19:16,390:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,390:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,391:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-05 13:19:16,392:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-05 13:19:16,444:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-05 13:19:16,444:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,444:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-05 13:19:16,444:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-05 13:19:16,444:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,445:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-05 13:19:16,446:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-05 13:19:16,494:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-05 13:19:16,495:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,495:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-05 13:19:16,496:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-05 13:19:16,496:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-05 13:19:16,496:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 13:19:16,497:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 13:19:16,497:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-05 13:19:16,497:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 13:19:16,497:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-05 13:19:16,498:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-05 13:19:16,498:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-05 13:19:16,498:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-05 13:19:16,498:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,499:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-05 13:19:16,499:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 13:19:16,499:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-05 13:19:16,499:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-05 13:19:16 +0530] [14654] [INFO] Starting gunicorn 20.0.4
+[2020-10-05 13:19:16 +0530] [14654] [INFO] Listening at: http://127.0.0.1:8000 (14654)
+[2020-10-05 13:19:16 +0530] [14654] [INFO] Using worker: sync
+[2020-10-05 13:19:16 +0530] [14661] [INFO] Booting worker with pid: 14661
+[2020-10-05 13:58:50 +0530] [14654] [CRITICAL] WORKER TIMEOUT (pid:14661)
+[2020-10-05 13:58:50 +0530] [14661] [INFO] Worker exiting (pid: 14661)
+[2020-10-05 13:58:50 +0530] [18561] [INFO] Booting worker with pid: 18561
+[2020-10-05 14:03:31 +0530] [14654] [INFO] Handling signal: term
+[2020-10-05 14:03:31 +0530] [18561] [INFO] Worker exiting (pid: 18561)
+[2020-10-05 14:03:31 +0530] [14654] [INFO] Shutting down: Master
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-05 14:03:45,589:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-05 14:03:45,589:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-05 14:03:45,594:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-05 14:03:45,594:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-05 14:03:45,598:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-05 14:03:45,598:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-05 14:03:45,602:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-05 14:03:45,603:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-05 14:03:45,603:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-05 14:03:45,614:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-05 14:03:45,614:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-05 14:03:45,614:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-05 14:03:45,632:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-05 14:03:45,633:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-05 14:03:45,633:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-05 14:03:45,649:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-05 14:03:45,649:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-05 14:03:45,650:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-05 14:03:45,663:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-05 14:03:45,664:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-05 14:03:45,664:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-05 14:03:45,674:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-05 14:03:45,675:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-05 14:03:45,676:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-05 14:03:45,752:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-05 14:03:45,752:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-05 14:03:45,753:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,754:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-05 14:03:45,754:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-05 14:03:45,847:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-05 14:03:45,847:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-05 14:03:45,847:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-05 14:03:45,900:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-05 14:03:45,901:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,902:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-05 14:03:45,902:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-05 14:03:45,903:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-05 14:03:45,903:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:45,904:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:45,904:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-05 14:03:45,904:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:45,905:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-05 14:03:45,905:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-05 14:03:45,906:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-05 14:03:45,906:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-05 14:03:45,906:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,907:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-05 14:03:45,907:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,908:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-05 14:03:45,908:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-05 14:03:45,969:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-05 14:03:45,969:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,969:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-05 14:03:45,969:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-05 14:03:45,969:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-05 14:03:45,969:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-05 14:03:45,970:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-05 14:03:46,042:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-05 14:03:46,042:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,042:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-05 14:03:46,042:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-05 14:03:46,042:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,043:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-05 14:03:46,044:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-05 14:03:46,103:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-05 14:03:46,103:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-05 14:03:46,301:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-05 14:03:46,301:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-05 14:03:46,302:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,303:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-05 14:03:46,303:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-05 14:03:46,347:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-05 14:03:46,348:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-05 14:03:46,349:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-05 14:03:46,402:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-05 14:03:46,403:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,403:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-05 14:03:46,403:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-05 14:03:46,403:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-05 14:03:46,404:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-05 14:03:46,405:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 14:03:46,406:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-05 14:03:46,406:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-05 14:03:46 +0530] [19026] [INFO] Starting gunicorn 20.0.4
+[2020-10-05 14:03:46 +0530] [19026] [INFO] Listening at: http://127.0.0.1:8000 (19026)
+[2020-10-05 14:03:46 +0530] [19026] [INFO] Using worker: sync
+[2020-10-05 14:03:46 +0530] [19039] [INFO] Booting worker with pid: 19039
+[2020-10-05 14:08:41 +0530] [19026] [INFO] Handling signal: term
+[2020-10-05 14:08:41 +0530] [19039] [INFO] Worker exiting (pid: 19039)
+[2020-10-05 14:08:42 +0530] [19026] [INFO] Shutting down: Master
+/home/jamiil/code/frappe/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+2020-10-05 14:08:46,862:INFO:flask_appbuilder.base:Registering class IndexView on menu 
+2020-10-05 14:08:46,863:INFO:flask_appbuilder.baseviews:Registering route / ('GET',)
+2020-10-05 14:08:46,879:INFO:flask_appbuilder.base:Registering class UtilView on menu 
+2020-10-05 14:08:46,880:INFO:flask_appbuilder.baseviews:Registering route /back ('GET',)
+2020-10-05 14:08:46,884:INFO:flask_appbuilder.base:Registering class LocaleView on menu 
+2020-10-05 14:08:46,884:INFO:flask_appbuilder.baseviews:Registering route /lang/<string:locale> ('GET',)
+2020-10-05 14:08:46,888:INFO:flask_appbuilder.base:Registering class SecurityApi on menu 
+2020-10-05 14:08:46,889:INFO:flask_appbuilder.api:Registering route /api/v1/security/login ['POST']
+2020-10-05 14:08:46,889:INFO:flask_appbuilder.api:Registering route /api/v1/security/refresh ['POST']
+2020-10-05 14:08:46,895:INFO:flask_appbuilder.base:Registering class ResetPasswordView on menu 
+2020-10-05 14:08:46,895:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['GET']
+2020-10-05 14:08:46,895:INFO:flask_appbuilder.baseviews:Registering route /resetpassword/form ['POST']
+2020-10-05 14:08:46,917:INFO:flask_appbuilder.base:Registering class ResetMyPasswordView on menu 
+2020-10-05 14:08:46,917:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['GET']
+2020-10-05 14:08:46,917:INFO:flask_appbuilder.baseviews:Registering route /resetmypassword/form ['POST']
+2020-10-05 14:08:46,943:INFO:flask_appbuilder.base:Registering class UserInfoEditView on menu 
+2020-10-05 14:08:46,943:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['GET']
+2020-10-05 14:08:46,943:INFO:flask_appbuilder.baseviews:Registering route /userinfoeditview/form ['POST']
+2020-10-05 14:08:46,955:INFO:flask_appbuilder.base:Registering class AuthDBView on menu 
+2020-10-05 14:08:46,956:INFO:flask_appbuilder.baseviews:Registering route /login/ ['GET', 'POST']
+2020-10-05 14:08:46,956:INFO:flask_appbuilder.baseviews:Registering route /logout/ ('GET',)
+2020-10-05 14:08:46,970:INFO:flask_appbuilder.base:Registering class UserDBModelView on menu List Users
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/action_post ['POST']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/add ['GET', 'POST']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api ['GET']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api/create ['POST']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api/get/<pk> ['GET']
+2020-10-05 14:08:46,971:INFO:flask_appbuilder.baseviews:Registering route /users/api/read ['GET']
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/api/readvalues ['GET']
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/api/update/<pk> ['PUT']
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/download/<string:filename> ('GET',)
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/list/ ('GET',)
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/show/<pk> ['GET']
+2020-10-05 14:08:46,972:INFO:flask_appbuilder.baseviews:Registering route /users/userinfo/ ('GET',)
+2020-10-05 14:08:47,049:INFO:flask_appbuilder.base:Registering class RoleModelView on menu List Roles
+2020-10-05 14:08:47,049:INFO:flask_appbuilder.baseviews:Registering route /roles/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,049:INFO:flask_appbuilder.baseviews:Registering route /roles/action_post ['POST']
+2020-10-05 14:08:47,049:INFO:flask_appbuilder.baseviews:Registering route /roles/add ['GET', 'POST']
+2020-10-05 14:08:47,049:INFO:flask_appbuilder.baseviews:Registering route /roles/api ['GET']
+2020-10-05 14:08:47,049:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/create ['POST']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/get/<pk> ['GET']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/read ['GET']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/readvalues ['GET']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,050:INFO:flask_appbuilder.baseviews:Registering route /roles/list/ ('GET',)
+2020-10-05 14:08:47,051:INFO:flask_appbuilder.baseviews:Registering route /roles/show/<pk> ['GET']
+2020-10-05 14:08:47,108:INFO:flask_appbuilder.base:Registering class UserStatsChartView on menu User's Statistics
+2020-10-05 14:08:47,108:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/ ('GET',)
+2020-10-05 14:08:47,108:INFO:flask_appbuilder.baseviews:Registering route /userstatschartview/chart/<group_by> ('GET',)
+2020-10-05 14:08:47,143:INFO:flask_appbuilder.base:Registering class PermissionModelView on menu Base Permissions
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/action_post ['POST']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/add ['GET', 'POST']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api ['GET']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/create ['POST']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/get/<pk> ['GET']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/read ['GET']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/readvalues ['GET']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,144:INFO:flask_appbuilder.baseviews:Registering route /permissions/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,145:INFO:flask_appbuilder.baseviews:Registering route /permissions/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,145:INFO:flask_appbuilder.baseviews:Registering route /permissions/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,145:INFO:flask_appbuilder.baseviews:Registering route /permissions/list/ ('GET',)
+2020-10-05 14:08:47,145:INFO:flask_appbuilder.baseviews:Registering route /permissions/show/<pk> ['GET']
+2020-10-05 14:08:47,199:INFO:flask_appbuilder.base:Registering class ViewMenuModelView on menu Views/Menus
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/action_post ['POST']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/add ['GET', 'POST']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api ['GET']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/create ['POST']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/get/<pk> ['GET']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/read ['GET']
+2020-10-05 14:08:47,200:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/readvalues ['GET']
+2020-10-05 14:08:47,201:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,201:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,201:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,201:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,201:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/list/ ('GET',)
+2020-10-05 14:08:47,201:INFO:flask_appbuilder.baseviews:Registering route /viewmenus/show/<pk> ['GET']
+2020-10-05 14:08:47,264:INFO:flask_appbuilder.base:Registering class PermissionViewModelView on menu Permission on Views/Menus
+2020-10-05 14:08:47,264:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,264:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/action_post ['POST']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/add ['GET', 'POST']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api ['GET']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/create ['POST']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/get/<pk> ['GET']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/read ['GET']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/readvalues ['GET']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,265:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,266:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,266:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/list/ ('GET',)
+2020-10-05 14:08:47,266:INFO:flask_appbuilder.baseviews:Registering route /permissionviews/show/<pk> ['GET']
+2020-10-05 14:08:47,321:INFO:flask_appbuilder.base:Registering class MenuApi on menu 
+2020-10-05 14:08:47,322:INFO:flask_appbuilder.api:Registering route /api/v1/menu/ ['GET']
+2020-10-05 14:08:47,445:INFO:flask_appbuilder.base:Registering class ProductModelView on menu Products
+2020-10-05 14:08:47,445:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,445:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/action_post ['POST']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/add ['GET', 'POST']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api ['GET']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/create ['POST']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/get/<pk> ['GET']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/read ['GET']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/readvalues ['GET']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,446:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/list/ ('GET',)
+2020-10-05 14:08:47,447:INFO:flask_appbuilder.baseviews:Registering route /productmodelview/show/<pk> ['GET']
+2020-10-05 14:08:47,489:INFO:flask_appbuilder.base:Registering class ProductMovementModelView on menu Product Movements
+2020-10-05 14:08:47,489:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,489:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/action_post ['POST']
+2020-10-05 14:08:47,489:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/add ['GET', 'POST']
+2020-10-05 14:08:47,489:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api ['GET']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/create ['POST']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/get/<pk> ['GET']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/read ['GET']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/readvalues ['GET']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/list/ ('GET',)
+2020-10-05 14:08:47,490:INFO:flask_appbuilder.baseviews:Registering route /productmovementmodelview/show/<pk> ['GET']
+2020-10-05 14:08:47,529:INFO:flask_appbuilder.base:Registering class LocationModelView on menu Warehouses
+2020-10-05 14:08:47,529:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action/<string:name>/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,529:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/action_post ['POST']
+2020-10-05 14:08:47,529:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/add ['GET', 'POST']
+2020-10-05 14:08:47,529:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api ['GET']
+2020-10-05 14:08:47,529:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/add/<col_name> ['GET']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/column/edit/<col_name> ['GET']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/create ['POST']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/delete/<pk> ['DELETE']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/get/<pk> ['GET']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/read ['GET']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/readvalues ['GET']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/api/update/<pk> ['PUT']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/delete/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/download/<string:filename> ('GET',)
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/edit/<pk> ['GET', 'POST']
+2020-10-05 14:08:47,530:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/list/ ('GET',)
+2020-10-05 14:08:47,531:INFO:flask_appbuilder.baseviews:Registering route /locationmodelview/show/<pk> ['GET']
+[2020-10-05 14:08:47 +0530] [21284] [INFO] Starting gunicorn 20.0.4
+[2020-10-05 14:08:47 +0530] [21284] [INFO] Listening at: http://127.0.0.1:8000 (21284)
+[2020-10-05 14:08:47 +0530] [21284] [INFO] Using worker: sync
+[2020-10-05 14:08:47 +0530] [21290] [INFO] Booting worker with pid: 21290
+[2020-10-05 14:37:08 +0530] [21284] [CRITICAL] WORKER TIMEOUT (pid:21290)
+[2020-10-05 14:37:08 +0530] [21290] [INFO] Worker exiting (pid: 21290)
+[2020-10-05 14:37:08 +0530] [21589] [INFO] Booting worker with pid: 21589

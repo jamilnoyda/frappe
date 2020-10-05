@@ -5,7 +5,7 @@ from flask import (
 
 from wtforms.fields import TextField
 
-from app import r
+# from app import r
 from flask import render_template
 from flask_appbuilder.models.sqla.interface import SQLAInterface
 from flask_appbuilder import ModelView
@@ -18,7 +18,7 @@ from app.models import (
 )
 
 from flask import request, session, flash, redirect, url_for
-from app import app, celery, db
+from app import app, db
 from flask_babel import gettext
 
 import logging

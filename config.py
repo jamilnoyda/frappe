@@ -11,6 +11,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Your App secret key
 
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # The SQLAlchemy connection string.
 SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(basedir, "app.db")
@@ -18,7 +19,6 @@ SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(basedir, "app.db")
 # SQLALCHEMY_DATABASE_URI = 'postgresql://root:password@localhost/myapp'
 
 # Flask-WTF flag for CSRF
-SECRET_KEY = os.getenv('SECRET_KEY')
 CSRF_ENABLED =  os.getenv('CSRF_ENABLED') 
 FLASK_ENV=os.getenv('FLASK_ENV')
 FLASK_APP=os.getenv('FLASK_APP')

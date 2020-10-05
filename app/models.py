@@ -6,7 +6,7 @@ from slugify import slugify  # among other things
 from sqlalchemy import CheckConstraint
 from flask_appbuilder.models.decorators import renders
 
-from app import r
+# from app import r
 from flask import Markup
 
 

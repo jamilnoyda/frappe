@@ -15,7 +15,7 @@ Start your application using Flask(Python 3.8+Flask==1.1+Flask-AppBuilder==2.3)
     $ flask run
 
 
-http://localhost:5555/
+http://localhost:8000/
 
 That's it!! 
 
